@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            Knock-out
+        </div>
+        <div class="diceImage">
+            <img src="img/coverImage.png" alt="images" id="diceImage1">
+            <img src="img/coverImage.png" alt="images" id="diceImage2">
+        </div>
+        <div class="pre_inst">
+            <button id="instr_btn">Instructions</button>
+
+            <!--denna div är för att instruktionerna ska kunna försvinna
+                om man trycker på instructions igen                  -->
+            <div id="instructions">
+            </div>
+        </div>
+        <div>
+            <button class="KO_nr">6</button>
+            <button class="KO_nr">7</button>
+            <button class="KO_nr">8</button>
+            <button class="KO_nr">9</button>
+        </div>
+        <div id="score">
+            Score:
+        </div>
+        <div id='scoreNumber'>
+            0
+        </div>
+        <div class="button">
+            <button id="rollButton">Roll</button>
+        </div>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
